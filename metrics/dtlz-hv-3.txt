@@ -1,0 +1,27 @@
+\begin{table*}[!ht]
+	\caption{The statistical analysis results of the mean and standard deviation of the HV and running time obtained by AlphaMOEA and the three MOEAs on DTLZ1-4 test problems. The best HV is marked in gray background and the minimum running time is marked in bold}
+    \small   
+	%\footnotesize
+    \label{table3}
+    \linespread{1.0}
+    \centering
+    %\resizebox{\textwidth}{!} {
+    \begin{tabular}{cccccccc}  
+        \hline  \hline
+        Problem 				& $M$  &  MOEA/D 						    &Time/s 		& RVEA   					&Time/s 		& AlphaMOEA  									& Time/s 	\\ \hline
+		\multirow{3}*{DTLZ1} 	& 4	 &	9.0827$e$-01 (1.24$e$-06$)^-$ 	& 	282.67	&  9.0831$e$-01 (1.77$e$-06$)^-$ & 	22.79			&  \cellcolor{gray80}9.1529$e$-01 (4.18$e$-07)  & 	\textbf{1.81}\\ 
+								& 6  &	9.7575$e$-01 (2.87$e$-06$)^-$ 	& 	320.83	&  9.7545$e$-01 (3.22$e$-06$)^-$ & 	22.79			&  \cellcolor{gray80}9.8130$e$-01 (8.56$e$-06)  & 	\textbf{1.89}\\ 
+								& 8	 &	9.9074$e$-01 (4.22$e$-06$)^-$ 	&	340.65	&  9.9099$e$-01 (2.57$e$-06$)^-$ &	22.76			&  \cellcolor{gray80}9.9360$e$-01 (3.77$e$-07)  &	\textbf{2.69}\\ \hline
+		\multirow{3}*{DTLZ2} 	& 4	 &	5.5564$e$-01 (1.38$e$-06$)^-$ 	&	294.63	&  5.5635$e$-01 (3.15$e$-06$)^-$ &	22.72			&  \cellcolor{gray80}5.7962$e$-01 (3.06$e$-06)  &	\textbf{1.16}\\ 
+								& 6	 &	7.2263$e$-01 (3.81$e$-06$)^-$ 	&	342.81	&  7.2295$e$-01 (6.23$e$-06$)^-$ &	22.96			&  \cellcolor{gray80}7.5650$e$-01 (1.72$e$-06)  &	\textbf{2.14}\\ 
+								& 8	 &	8.0837$e$-01 (6.85$e$-06$)^=$ 	&	364.68	&  \cellcolor{gray80}8.1154$e$-01 (7.62$e$-06$)^+$  &	23.21	&  8.0834$e$-01 (1.85$e$-04)  &	\textbf{1.51}\\ \hline
+		\multirow{3}*{DTLZ3} 	& 4	 &	\cellcolor{gray80}5.6951$e$-01 (7.02$e$-06$)^+$ 	&	294.56	&  5.6680$e$-01 (3.40$e$-04$)^=$ &	22.78			&  5.6679$e$-01 (1.69$e$-04)  &	\textbf{5.47}\\ 
+								& 6	 &	7.2316$e$-01 (2.94$e$-05$)^+$ 	&	329.18	&  \cellcolor{gray80}7.2364$e$-01 (6.37$e$-06$)^+$ &	23.00			&  7.1517$e$-01 (1.43$e$-05)  &	\textbf{4.09}\\ 
+								& 8	 &	8.0776$e$-01 (1.97$e$-04$)^+$ 	&	363.04	&  \cellcolor{gray80}8.1023$e$-01 (8.76$e$-06$)^+$ &	23.31			&  7.8771$e$-01 (8.16$e$-03)  &	\textbf{6.25}\\ \hline
+		\multirow{3}*{DTLZ4} 	& 4	 &	4.7453$e$-01 (1.35$e$-01$)^-$ 	&	296.62	&  5.5509$e$-01 (1.54$e$-05$)^-$ &	22.81			&  \cellcolor{gray80}5.8167$e$-01 (3.41$e$-04)  &	\textbf{1.74}\\ 
+								& 6	 &	6.4228$e$-01 (8.58$e$-02$)^-$ 	&	324.92	&  7.1620$e$-01 (2.08$e$-02$)^-$ &	22.98			&  \cellcolor{gray80}7.5595$e$-01 (7.08$e$-03)  &	\textbf{1.79}\\  
+								& 8	 &	7.2909$e$-01 (7.69$e$-02$)^-$ 	&	365.11	&  \cellcolor{gray80}8.0632$e$-01 (8.55$e$-03$)^+$ &	23.39			&  7.9368$e$-01 (9.18$e$-05)  &	\textbf{2.26}\\ \hline
+		+/-/=   				&~	 & 9/2/1 					&~ & 7/4/1		& ~		 \\ \hline \hline
+    \end{tabular}
+	%}
+\end{table*}
